@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "devDependencies": {
+    "@types/react": "19.0.8",
     "bun-types": "latest"
   },
   "peerDependencies": {
