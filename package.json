@@ -2,6 +2,11 @@
   "name": "next-app",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
