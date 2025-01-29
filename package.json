@@ -1,25 +1,25 @@
 {
-  "name": "next-app",
-  "module": "index.ts",
-  "type": "module",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "biome check .",
-    "format": "biome format --write"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@types/react": "19.0.8",
-    "bun-types": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "next": "^15.1.6",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  }
+	"name": "next-app",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "biome check .",
+		"format": "biome format --write"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@types/react": "19.0.8",
+		"bun-types": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"next": "^15.1.6",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	}
 }
